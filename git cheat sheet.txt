@@ -1,0 +1,64 @@
+git init
+(for initialzing the git)
+----------------------------
+
+git add filename
+file will go in staging area
+------------------------------------
+
+git status
+(what changes you have done and what files are in staging area)
+----------------------------------------------------------------
+git commit -m ""
+(commit the changes to head after you add the file)
+
+or 
+
+git commit -am ""
+(a for adding and in this no need to add in staging area a does all this things)
+------------------------------------------
+
+git log
+(we get the log of all commit)
+-------------------------------------
+
+git rm --cached file name
+(to remove the file from staging area)
+----------------------------------------------
+git branch branchname
+(to create a new branch)
+
+--------------------------------------------
+
+git checkout branchname
+(to move in branch)
+
+if you add anything on the file that you have in branch when
+you again move to the master branch by the same command then the line 
+you have add will disappear 
+Thats the power of git
+
+----------------------------------------
+
+for merging you should be in your master branch
+
+git merge branchname
+(merge the changes in the master branch)
+
+------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
